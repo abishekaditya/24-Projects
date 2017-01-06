@@ -1,4 +1,4 @@
-GitHub-Project-CV
+GitHub-Projects
 =================
 
-Displays repositories for projects you created and contributed to.
+Displays repositories for '24 Projects'
