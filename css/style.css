@@ -10,20 +10,44 @@
     transform: translateY(50%);
 }
 
-.btn{
-    float: right;
-}
 .num {
     font-size: 3em;
 }
+.btn{
+    margin-bottom: 50px;
+}
+@media only screen and (min-width: 500px) {
+    .carousel-item{
+        padding-top: 1em;
+        padding-right: 3em;
+        padding-left: 3em;
+        padding-bottom: 1em;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .carousel-item{
+        padding-right: 4px;
+        padding-left: 4px;
+    }
+
+    .btn {
+        margin-left: 36%;
+        margin-bottom: 5px;
+    }
+
+    .num {
+        text-align: center;
+    }
+
+    .col-sm-10 {
+        text-align: center;
+    }
+}
+
 .carousel-item{
     font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 3em;
     height: 100%;
-    padding-top: 1em;
-    padding-right: 3em;
-    padding-left: 3em;
-    padding-bottom: 1em;
 }
 .desc {
     font-family: 'Quicksand', sans-serif;
