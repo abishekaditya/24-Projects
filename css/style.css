@@ -23,6 +23,12 @@
         padding-left: 3em;
         padding-bottom: 1em;
     }
+    .carousel,
+    .carousel-inner,
+    .carousel-inner .item {
+          height: 100vh;
+        }
+
 }
 @media only screen and (max-width: 500px) {
     .carousel-item{
@@ -79,10 +85,3 @@
     z-index: 2;
 }
 
-html,
-body,
-.carousel,
-.carousel-inner,
-.carousel-inner .item {
-    height: 100%;
-}
