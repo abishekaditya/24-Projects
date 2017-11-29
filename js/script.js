@@ -1,5 +1,5 @@
 $(window).load((function () {
-    $url = 'https://api.github.com/users/abishekaditya/repos';
+    $url = 'https://api.github.com/users/abishekaditya/repos?per_page=200';
     $.getJSON ($url, function ( response ) {
         var i = 0;
         $.each (response, function (index, repos) {
